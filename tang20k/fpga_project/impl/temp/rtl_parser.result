@@ -1,0 +1,294 @@
+[
+ {
+  "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/top.v",
+    "InstLine" : 34,
+    "InstName" : "dut_rx",
+    "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/uart_rx.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/top.v",
+    "InstLine" : 74,
+    "InstName" : "dut_ripple",
+    "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rippleCarryAdder32bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 12,
+      "InstName" : "FA0",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[1].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[2].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[3].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[4].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[5].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[6].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[7].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[8].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[9].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[10].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[11].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[12].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[13].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[14].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[15].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[16].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[17].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[18].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[19].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[20].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[21].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[22].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[23].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[24].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[25].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[26].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[27].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[28].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[29].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[30].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     },
+     {
+      "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/rippleCarryAdder32bit.v",
+      "InstLine" : 23,
+      "InstName" : "FA_i[31].FA",
+      "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/fullAdder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "fullAdder"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/top.v",
+    "InstLine" : 143,
+    "InstName" : "dut_tx",
+    "ModuleFile" : "D:/IC_DESIGN/VERILOG/VERILOG_PROJECT/rippleCarryAdder32bit/tang20k/fpga_project/src/uart_tx.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "uart_tx"
+   }
+  ]
+ }
+]

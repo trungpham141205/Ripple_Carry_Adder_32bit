@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="114" Lut="48" T_Register="164(114)" T_Lut="246(48)">
+ <SubModule name="dut_rx" Register="25" Lut="45" T_Register="25(25)" T_Lut="45(45)"/>
+ <SubModule name="dut_ripple" T_Lut="116(0)">
+  <SubModule name="FA0" Lut="1" T_Lut="1(1)"/>
+  <SubModule name="FA_i[1].FA" Lut="1" T_Lut="1(1)"/>
+  <SubModule name="FA_i[2].FA" Lut="3" T_Lut="3(3)"/>
+  <SubModule name="FA_i[3].FA" Lut="3" T_Lut="3(3)"/>
+  <SubModule name="FA_i[4].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[5].FA" Lut="4" T_Lut="4(4)"/>
+  <SubModule name="FA_i[6].FA" Lut="4" T_Lut="4(4)"/>
+  <SubModule name="FA_i[7].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[8].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[9].FA" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="FA_i[10].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[11].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[12].FA" Lut="6" T_Lut="6(6)"/>
+  <SubModule name="FA_i[13].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[14].FA" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="FA_i[15].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[16].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[17].FA" Lut="8" T_Lut="8(8)"/>
+  <SubModule name="FA_i[18].FA" Lut="3" T_Lut="3(3)"/>
+  <SubModule name="FA_i[19].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[20].FA" Lut="5" T_Lut="5(5)"/>
+  <SubModule name="FA_i[21].FA" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="FA_i[22].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[23].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[24].FA" Lut="6" T_Lut="6(6)"/>
+  <SubModule name="FA_i[25].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[26].FA" Lut="5" T_Lut="5(5)"/>
+  <SubModule name="FA_i[27].FA" Lut="6" T_Lut="6(6)"/>
+  <SubModule name="FA_i[28].FA" Lut="2" T_Lut="2(2)"/>
+  <SubModule name="FA_i[29].FA" Lut="5" T_Lut="5(5)"/>
+  <SubModule name="FA_i[30].FA" Lut="4" T_Lut="4(4)"/>
+  <SubModule name="FA_i[31].FA" Lut="5" T_Lut="5(5)"/>
+ </SubModule>
+ <SubModule name="dut_tx" Register="25" Lut="37" T_Register="25(25)" T_Lut="37(37)"/>
+</Module>

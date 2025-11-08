@@ -1,0 +1,103 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dD:/Project/rippleCarryAdder32bit/results/sim
+T_opt
+!s110 1761718493
+VY3A7CZf:6DgZkY`QGn]Ko2
+04 23 4 work tbRippleCarryAdder32bit fast 0
+=1-14ac606edb59-6901b0dc-2ee-4588
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U34 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+vfullAdder
+2../../src/fullAdder.v
+!s110 1761718491
+!i10b 1
+!s100 o081S?TMT7ZZl[SR]2V5W0
+IZ=cc[`Fo1e9^i?gWSiC=H0
+R2
+w1761665653
+8../../src/fullAdder.v
+F../../src/fullAdder.v
+!i122 13
+L0 1 9
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2024.3;79
+r1
+!s85 0
+31
+!s108 1761718491.000000
+!s107 ../../src/fullAdder.v|
+!s90 -reportprogress|300|../../src/fullAdder.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+nfull@adder
+vrippleCarryAdder32bit
+2../../src/rippleCarryAdder32bit.v
+Z7 !s110 1761718492
+!i10b 1
+!s100 NoNg:E_FXR5i=3Ye9I?<C1
+IAeRSfKG9z^1Djc1MXNbnP0
+R2
+w1761666220
+8../../src/rippleCarryAdder32bit.v
+F../../src/rippleCarryAdder32bit.v
+!i122 14
+L0 1 34
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1761718492.000000
+!s107 ../../src/rippleCarryAdder32bit.v|
+!s90 -reportprogress|300|../../src/rippleCarryAdder32bit.v|
+!i113 0
+R6
+R3
+nripple@carry@adder32bit
+vtbRippleCarryAdder32bit
+2../../sim/tbRippleCarryAdder32bit.v
+R7
+!i10b 1
+!s100 nz38:L:bJ4>TTB`H3c:al3
+I1ikP_f0EUU6B2BjO0RMZQ2
+R2
+w1761718486
+8../../sim/tbRippleCarryAdder32bit.v
+F../../sim/tbRippleCarryAdder32bit.v
+!i122 15
+L0 1 57
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 ../../sim/tbRippleCarryAdder32bit.v|
+!s90 -reportprogress|300|../../sim/tbRippleCarryAdder32bit.v|
+!i113 0
+R6
+R3
+ntb@ripple@carry@adder32bit
